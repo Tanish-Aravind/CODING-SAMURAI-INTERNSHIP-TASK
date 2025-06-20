@@ -1,35 +1,9 @@
 # CODING-SAMURAI-INTERNSHIP-TASK
 Completed machine learning internship tasks (Batch A-45) from Coding Samurai – includes regression, classification, NLP, and deep learning projects.
 
-🏠 Project 1: House Price Prediction using Linear Regression
-📌 Description:
-This project focuses on building a linear regression model to predict house prices based on various features such as area, location, number of rooms, presence of air conditioning, guest rooms, etc. It’s a classic regression problem ideal for learning how to handle real estate data and apply core ML concepts.
+Task 1 : 🏠 House Price Prediction – Summary
+In this project, I built a Linear Regression model to predict house prices using a dataset containing various property features like area, number of bedrooms, availability of a guest room, air conditioning, and more. I began with essential data preprocessing, where I handled binary categorical features (yes/no) using mapping, and applied OneHotEncoding to multi-class categorical variables. After cleaning the data, I used a ColumnTransformer to ensure smooth preprocessing of categorical and numerical data.
 
-🛠 Skills Applied:
+To enhance model performance and stabilize variance, I applied a log transformation on the target variable (price) before training the model. Then, I trained a LinearRegression model using train-test split, predicted log-scaled prices, and inverse transformed them back using np.expm1() for meaningful interpretation. The model’s performance was evaluated using Mean Squared Error (MSE) and R² Score, achieving an R² of ~0.66, which indicates a fairly strong linear relationship between features and house price. The results show the model's potential in real-world price prediction scenarios.
 
-Data Cleaning & Preprocessing (yes/no → binary, categorical → OneHotEncoding)
-
-Feature Engineering using ColumnTransformer
-
-Log transformation to normalize skewed target variable
-
-Model Training with LinearRegression
-
-Performance Evaluation using MSE & R² Score
-
-⚙️ Tools & Libraries:
-pandas, numpy, scikit-learn, LinearRegression, OneHotEncoder, StandardScaler
-
-📈 Results:
-
-MSE: ~1.72 trillion
-
-R² Score: 0.658, meaning the model explains around 65.8% of the variance in housing prices – not bad for a basic regression setup!
-
-🧠 Concepts Covered:
-
-Linear Regression
-
-Log transformation for improving prediction accuracy
-
-Model evaluation on original price scale
+Task 2 :
