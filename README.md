@@ -1,4 +1,4 @@
-# CODING-SAMURAI-INTERNSHIP-TASK
+  # CODING-SAMURAI-INTERNSHIP-TASK
 Completed machine learning internship tasks (Batch A-45) from Coding Samurai – includes regression, classification, NLP, and deep learning projects.
 
 Task 1 : 🏠 House Price Prediction – Summary
@@ -9,4 +9,8 @@ Task 2 : 🌸 Iris Flower Classification – Summary
 In this task, I developed a classification model to predict the species of an Iris flower based on features like petal length, petal width, sepal length, and sepal width. I began by exploring the Iris dataset, performing basic data visualization using plots like scatter plots and pair plots to understand the relationship between features and classes. Then, I split the dataset into training and testing sets and built a supervised machine learning model, typically using algorithms like Logistic Regression, K-Nearest Neighbors (KNN), or Decision Tree for multi-class classification.
 After training, I evaluated the model's performance using metrics like accuracy, confusion matrix, and classification report to assess how well it distinguishes between the three flower species – Setosa, Versicolor, and Virginica. The model achieved high accuracy due to the dataset's simplicity and separability, making it an ideal starter project to grasp the core concepts of classification and model evaluation.
 
-Task 3 :   
+Task 3 : 🐦 Sentiment Analysis on Tweets – Summary
+In this project, I worked on classifying tweets based on their sentiment — Positive, Negative, or Neutral — using Natural Language Processing (NLP) techniques. I began by cleaning the raw text data, which involved removing punctuation, converting to lowercase, eliminating stopwords, and applying techniques like tokenization and stemming/lemmatization to normalize the text. This step ensured that the model could focus on the actual meaning of the text rather than noise.
+After preprocessing, I used text vectorization techniques like TF-IDF or CountVectorizer to convert text into numerical form. Then I trained a classification model — typically Logistic Regression, Naive Bayes, or a similar algorithm — to learn patterns in the sentiment labels. The model was evaluated using metrics like accuracy, precision, recall, and confusion matrix, giving insights into its ability to differentiate between tweet sentiments. This project gave me hands-on experience in real-world text classification problems and a solid grip on the NLP workflow.
+
+Task 4 : 
